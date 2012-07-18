@@ -1,1 +1,0 @@
-/Users/sdkondo/Work/Git/itestapp/Resources/app.js
