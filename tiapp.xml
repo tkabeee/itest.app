@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">7QOO1OhwbgpKeemcsebJkYdVBZjTeyRi</property>
+    <property name="acs-oauth-key-production" type="string">2lSyD7bYVBNpNj6XU8rKUVSqzQ5NByZ3</property>
+    <property name="acs-api-key-production" type="string">7o5V0qJckOYmOyzmHMn4YJoIYLMcjpNq</property>
+    <property name="acs-oauth-secret-development" type="string">JcA0G6aJV5xVEpzPnNwrEuWShKh9CT8X</property>
+    <property name="acs-oauth-key-development" type="string">WK4c5coyyX3MOSsCYCBoX3sk27AhW3xh</property>
+    <property name="acs-api-key-development" type="string">tk1yJDIjS1ZOZjdaez3HDQOWvNG6463X</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>iTestApp</id>
+    <name>iTestApp</name>
+    <version>1.0</version>
+    <publisher>sdkondo</publisher>
+    <url>http://app.itest.me</url>
+    <description>not specified</description>
+    <copyright>2012 by sdkondo</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>d202bdd0-103c-4fa7-b318-3b12be790b5d</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    </modules>
+</ti:app>
