@@ -56,7 +56,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for itestapp Developer console
+// in simulator we redefine to format for iTestApp Developer console
 
 
 #define TI_INLINE static __inline__
@@ -400,28 +400,28 @@ DebugLog(@"[WARN] Ti%@.%@ DEPRECATED in %@, in favor of %@.",@"tanium",api,in,ne
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UIitestappNativeItemNone = -1, 
-	UIitestappNativeItemSpinner = -2,
-	UIitestappNativeItemProgressBar = -3,
+	UIiTestAppNativeItemNone = -1, 
+	UIiTestAppNativeItemSpinner = -2,
+	UIiTestAppNativeItemProgressBar = -3,
 	
-	UIitestappNativeItemSlider = -4,
-	UIitestappNativeItemSwitch = -5,
-	UIitestappNativeItemMultiButton = -6,
-	UIitestappNativeItemSegmented = -7,
+	UIiTestAppNativeItemSlider = -4,
+	UIiTestAppNativeItemSwitch = -5,
+	UIiTestAppNativeItemMultiButton = -6,
+	UIiTestAppNativeItemSegmented = -7,
 	
-	UIitestappNativeItemTextView = -8,
-	UIitestappNativeItemTextField = -9,
-	UIitestappNativeItemSearchBar = -10,
+	UIiTestAppNativeItemTextView = -8,
+	UIiTestAppNativeItemTextField = -9,
+	UIiTestAppNativeItemSearchBar = -10,
 	
-	UIitestappNativeItemPicker = -11,
-	UIitestappNativeItemDatePicker = -12,
+	UIiTestAppNativeItemPicker = -11,
+	UIiTestAppNativeItemDatePicker = -12,
 	
-	UIitestappNativeItemInfoLight = -13,
-	UIitestappNativeItemInfoDark = -14,
+	UIiTestAppNativeItemInfoLight = -13,
+	UIiTestAppNativeItemInfoDark = -14,
 	
-	UIitestappNativeItemDisclosure = -15,
+	UIiTestAppNativeItemDisclosure = -15,
 	
-	UIitestappNativeItemContactAdd = -16
+	UIiTestAppNativeItemContactAdd = -16
 };
 
 
@@ -588,7 +588,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
     
 /**
- *	TiThreadPerformOnMainThread should replace all itestapp instances of
+ *	TiThreadPerformOnMainThread should replace all iTestApp instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

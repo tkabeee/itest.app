@@ -14,7 +14,7 @@
 #import "TiViewController.h"
 
 /**
- itestapp orientation flags.
+ iTestApp orientation flags.
  */
 typedef enum
 {

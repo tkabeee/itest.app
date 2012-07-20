@@ -1,6 +1,6 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2011 by itestapp, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2011 by iTestApp, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
  * 
@@ -520,10 +520,10 @@ bool KrollSetProperty(TiContextRef jsContext, TiObjectRef object, TiStringRef pr
 
 // forward declare these
 
-//@interface itestappObject : NSObject
+//@interface iTestAppObject : NSObject
 //@end
 
-@interface itestappObject (Private)
+@interface iTestAppObject (Private)
 -(NSDictionary*)modules;
 @end
 
@@ -541,9 +541,9 @@ void KrollPropertyNames(TiContextRef ctx, TiObjectRef object, TiPropertyNameAccu
 	{
 		id target = [o target];
 		
-		if ([o isKindOfClass:[itestappObject class]])
+		if ([o isKindOfClass:[iTestAppObject class]])
 		{
-			for (NSString *key in [[(itestappObject*)o modules] allKeys])
+			for (NSString *key in [[(iTestAppObject*)o modules] allKeys])
 			{
 				TiStringRef value = TiStringCreateWithUTF8CString([key UTF8String]);
 				TiPropertyNameAccumulatorAddName(propertyNames,value);

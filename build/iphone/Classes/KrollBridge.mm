@@ -26,13 +26,13 @@
 
 extern BOOL const TI_APPLICATION_ANALYTICS;
 
-NSString * itestapp$ModuleRequireFormat = @"(function(exports){"
+NSString * iTestApp$ModuleRequireFormat = @"(function(exports){"
 		"var __OXP=exports;var module={'exports':exports};%@;\n"
 		"if(module.exports !== __OXP){return module.exports;}"
 		"return exports;})({})";
 
 
-@implementation itestappObject
+@implementation iTestAppObject
 
 -(NSDictionary*)modules
 {
@@ -552,12 +552,12 @@ CFMutableSetRef	krollBridgeRegistry = nil;
 
 -(void)didStartNewContext:(KrollContext*)kroll
 {
-	// create itestapp global object
+	// create iTestApp global object
     NSAutoreleasePool* pool = [[NSAutoreleasePool alloc] init];
     
-    // Load the "itestapp" object into the global scope
+    // Load the "iTestApp" object into the global scope
 	NSString *basePath = (url==nil) ? [TiHost resourcePath] : [[[url path] stringByDeletingLastPathComponent] stringByAppendingPathComponent:@"."];
-	_itestapp = [[itestappObject alloc] initWithContext:kroll host:host context:self baseURL:[NSURL fileURLWithPath:basePath]];
+	_itestapp = [[iTestAppObject alloc] initWithContext:kroll host:host context:self baseURL:[NSURL fileURLWithPath:basePath]];
 	
 	TiContextRef jsContext = [kroll context];
 	TiValueRef tiRef = [KrollObject toValue:kroll value:_itestapp];
@@ -721,7 +721,7 @@ CFMutableSetRef	krollBridgeRegistry = nil;
 
 -(id)loadCommonJSModule:(NSString*)code withPath:(NSString*)path
 {
-	NSString *js = [[NSString alloc] initWithFormat:itestapp$ModuleRequireFormat,code];
+	NSString *js = [[NSString alloc] initWithFormat:iTestApp$ModuleRequireFormat,code];
 
 	/* This most likely should be integrated with normal code flow, but to
 	 * minimize impact until a in-depth reconsideration of KrollContext can be

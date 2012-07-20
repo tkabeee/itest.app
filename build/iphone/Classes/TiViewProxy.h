@@ -16,7 +16,7 @@
  */
 @protocol TiKeyboardFocusableView
 
-#pragma mark Public itestapp APIs.
+#pragma mark Public iTestApp APIs.
 
 /**
  Tells the view to focus.

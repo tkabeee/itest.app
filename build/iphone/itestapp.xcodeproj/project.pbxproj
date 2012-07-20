@@ -916,7 +916,7 @@
 		1D19459913FF3BE500E2B4D0 /* TIDOMDocumentTypeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIDOMDocumentTypeProxy.h; sourceTree = "<group>"; };
 		1D19459A13FF3BE500E2B4D0 /* TIDOMDocumentTypeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIDOMDocumentTypeProxy.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* itestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itestapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* iTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCC542D13FF0B0700DF3EE5 /* TIDOMCharacterDataProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIDOMCharacterDataProxy.h; sourceTree = "<group>"; };
 		1DCC542E13FF0B0800DF3EE5 /* TIDOMCharacterDataProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIDOMCharacterDataProxy.m; sourceTree = "<group>"; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -1290,7 +1290,7 @@
 		24D0700411D0253D00F615D8 /* TiUIiOSProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TiUIiOSProxy.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		24D0700511D0253D00F615D8 /* TiUIiOSProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TiUIiOSProxy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		24D5C75811E6364F00F097E2 /* libtiverify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiverify.a; path = lib/libtiverify.a; sourceTree = SOURCE_ROOT; };
-		24D8E4B1119B9D8A00F8CAA6 /* itestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itestapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D8E4B1119B9D8A00F8CAA6 /* iTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DD042A116A6C58006FD6E1 /* TiToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiToolbar.h; sourceTree = "<group>"; };
 		24DD0455116A6F02006FD6E1 /* TiTabGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiTabGroup.h; sourceTree = "<group>"; };
 		24DD0977116D8E07006FD6E1 /* TiToolbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiToolbarButton.h; sourceTree = "<group>"; };
@@ -1395,7 +1395,7 @@
 		2BCD59C41429561D00DEC2E8 /* TiUIiOSToolbarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiUIiOSToolbarProxy.m; sourceTree = "<group>"; };
 		2BDEA4F11448FFB7004EC750 /* TiUIiOSTabbedBarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiUIiOSTabbedBarProxy.h; sourceTree = "<group>"; };
 		2BDEA4F21448FFB7004EC750 /* TiUIiOSTabbedBarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiUIiOSTabbedBarProxy.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* itestapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "itestapp_Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iTestApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTestApp_Prefix.pch"; sourceTree = "<group>"; };
 		4D3033A1136239B30034640F /* TiFilesystemFileStreamProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TiFilesystemFileStreamProxy.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4D3033A2136239B30034640F /* TiFilesystemFileStreamProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TiFilesystemFileStreamProxy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		844E1F7C14883A3700F5424C /* TiDOMValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiDOMValidator.h; sourceTree = "<group>"; };
@@ -1501,7 +1501,7 @@
 		DABA10BE12E676A1007DD791 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FBLoginDialog.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DABA10BF12E676A1007DD791 /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FBRequest.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DABA10C012E676A1007DD791 /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FBRequest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		DABB37BC12E8CB280026A6EA /* itestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "itestapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABB37BC12E8CB280026A6EA /* iTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF3ECD134D210400836137 /* TiBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiBuffer.h; sourceTree = "<group>"; };
 		DABF3ECE134D210400836137 /* TiBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiBuffer.m; sourceTree = "<group>"; };
 		DABF3ED5134D2CA100836137 /* StreamModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamModule.h; sourceTree = "<group>"; };
@@ -1627,9 +1627,9 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* itestapp.app */,
-				24D8E4B1119B9D8A00F8CAA6 /* itestapp.app */,
-				DABB37BC12E8CB280026A6EA /* itestapp.app */,
+				1D6058910D05DD3D006BFB54 /* iTestApp.app */,
+				24D8E4B1119B9D8A00F8CAA6 /* iTestApp.app */,
+				DABB37BC12E8CB280026A6EA /* iTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2746,7 +2746,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* itestapp_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* iTestApp_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				241EAA21118AB3BB0081A5BE /* defines.h */,
 				241EAEC5118E2BA90081A5BE /* project.xcconfig */,
@@ -2936,9 +2936,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* itestapp */ = {
+		1D6058900D05DD3D006BFB54 /* iTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "itestapp" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTestApp" */;
 			buildPhases = (
 				241EAF36118E30260081A5BE /* Pre-Compile */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -2950,14 +2950,14 @@
 			);
 			dependencies = (
 			);
-			name = "itestapp";
-			productName = itestapp;
-			productReference = 1D6058910D05DD3D006BFB54 /* itestapp.app */;
+			name = "iTestApp";
+			productName = iTestApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* iTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24D8E3B5119B9D8A00F8CAA6 /* itestapp-iPad */ = {
+		24D8E3B5119B9D8A00F8CAA6 /* iTestApp-iPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24D8E4AE119B9D8A00F8CAA6 /* Build configuration list for PBXNativeTarget "itestapp-iPad" */;
+			buildConfigurationList = 24D8E4AE119B9D8A00F8CAA6 /* Build configuration list for PBXNativeTarget "iTestApp-iPad" */;
 			buildPhases = (
 				24D8E3B9119B9D8A00F8CAA6 /* Pre-Compile */,
 				24D8E3B6119B9D8A00F8CAA6 /* Resources */,
@@ -2969,14 +2969,14 @@
 			);
 			dependencies = (
 			);
-			name = "itestapp-iPad";
-			productName = itestapp;
-			productReference = 24D8E4B1119B9D8A00F8CAA6 /* itestapp.app */;
+			name = "iTestApp-iPad";
+			productName = iTestApp;
+			productReference = 24D8E4B1119B9D8A00F8CAA6 /* iTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DABB369A12E8CB280026A6EA /* itestapp-universal */ = {
+		DABB369A12E8CB280026A6EA /* iTestApp-universal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DABB37B912E8CB280026A6EA /* Build configuration list for PBXNativeTarget "itestapp-universal" */;
+			buildConfigurationList = DABB37B912E8CB280026A6EA /* Build configuration list for PBXNativeTarget "iTestApp-universal" */;
 			buildPhases = (
 				DABB369F12E8CB280026A6EA /* Pre-Compile */,
 				DABB369B12E8CB280026A6EA /* Resources */,
@@ -2988,9 +2988,9 @@
 			);
 			dependencies = (
 			);
-			name = "itestapp-universal";
-			productName = itestapp;
-			productReference = DABB37BC12E8CB280026A6EA /* itestapp.app */;
+			name = "iTestApp-universal";
+			productName = iTestApp;
+			productReference = DABB37BC12E8CB280026A6EA /* iTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3001,7 +3001,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "itestapp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTestApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -3015,9 +3015,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* itestapp */,
-				24D8E3B5119B9D8A00F8CAA6 /* itestapp-iPad */,
-				DABB369A12E8CB280026A6EA /* itestapp-universal */,
+				1D6058900D05DD3D006BFB54 /* iTestApp */,
+				24D8E3B5119B9D8A00F8CAA6 /* iTestApp-iPad */,
+				DABB369A12E8CB280026A6EA /* iTestApp-universal */,
 			);
 		};
 /* End PBXProject section */
@@ -3996,7 +3996,7 @@
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -4022,7 +4022,7 @@
 					"-weak_framework",
 					iAd,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -4035,7 +4035,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -4052,7 +4052,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -4067,7 +4067,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4088,7 +4088,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = "armv6 armv7 i386";
 			};
@@ -4101,7 +4101,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4121,7 +4121,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv6 armv7 i386";
@@ -4271,7 +4271,7 @@
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -4297,7 +4297,7 @@
 					"-weak_framework",
 					iAd,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -4312,7 +4312,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4333,7 +4333,7 @@
 					"-weak_framework",
 					CoreVideo,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = "armv6 armv7 i386";
 			};
@@ -4348,7 +4348,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4374,7 +4374,7 @@
 					"-weak_framework",
 					CoreMedia,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv6 armv7 i386";
@@ -4390,7 +4390,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4416,7 +4416,7 @@
 					"-weak_framework",
 					CoreMedia,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv6 armv7 i386";
@@ -4430,7 +4430,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "itestapp_Prefix.pch";
+				GCC_PREFIX_HEADER = "iTestApp_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -4450,7 +4450,7 @@
 					"-weak_framework",
 					CoreMedia,
 				);
-				PRODUCT_NAME = "itestapp";
+				PRODUCT_NAME = "iTestApp";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4461,7 +4461,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "itestapp" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -4471,7 +4471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24D8E4AE119B9D8A00F8CAA6 /* Build configuration list for PBXNativeTarget "itestapp-iPad" */ = {
+		24D8E4AE119B9D8A00F8CAA6 /* Build configuration list for PBXNativeTarget "iTestApp-iPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24D8E4AF119B9D8A00F8CAA6 /* Debug */,
@@ -4481,7 +4481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "itestapp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
@@ -4491,7 +4491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DABB37B912E8CB280026A6EA /* Build configuration list for PBXNativeTarget "itestapp-universal" */ = {
+		DABB37B912E8CB280026A6EA /* Build configuration list for PBXNativeTarget "iTestApp-universal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DABB37BA12E8CB280026A6EA /* Debug */,

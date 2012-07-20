@@ -290,13 +290,13 @@ MAKE_SYSTEM_PROP(STATE_PAUSED,AS_PAUSED);
         DebugLog(@"[WARN] Invalid mode for audio player... setting to default.");
         newMode = kAudioSessionCategory_SoloAmbientSound;
     }
-	DebugLog(@"[WARN] 'itestapp.Media.AudioPlayer.audioSessionMode' is deprecated; use 'itestapp.Media.audioSessionMode'");
+	DebugLog(@"[WARN] 'iTestApp.Media.AudioPlayer.audioSessionMode' is deprecated; use 'iTestApp.Media.audioSessionMode'");
 	[[TiMediaAudioSession sharedSession] setSessionMode:newMode];
 }
 
 -(NSNumber*)audioSessionMode
 {
-	DebugLog(@"[WARN] 'itestapp.Media.AudioPlayer.audioSessionMode' is deprecated; use 'itestapp.Media.audioSessionMode'");	
+	DebugLog(@"[WARN] 'iTestApp.Media.AudioPlayer.audioSessionMode' is deprecated; use 'iTestApp.Media.audioSessionMode'");	
     return [NSNumber numberWithUnsignedInteger:[[TiMediaAudioSession sharedSession] sessionMode]];
 }
 

@@ -97,7 +97,7 @@ void DoProxyDelegateReadValuesWithKeysFromProxy(UIView<TiProxyDelegate> * target
 
 
 /**
- The base class for itestapp proxies.
+ The base class for iTestApp proxies.
  */
 @interface TiProxy : NSObject<KrollTargetable> {
 @private

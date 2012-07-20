@@ -12,7 +12,7 @@
 @class TiHost;
 
 /**
- The base class for all itestapp modules
+ The base class for all iTestApp modules
  */
 @interface TiModule : TiProxy 
 {
@@ -49,30 +49,30 @@
 // lifecycle
 
 /**
- itestapp Platform calls this method on startup.
+ iTestApp Platform calls this method on startup.
  */
 -(void)startup;
 
 /**
- itestapp Platform calls this method on shutdown.
+ iTestApp Platform calls this method on shutdown.
  @param sender The sender of the event.
  */
 -(void)shutdown:(id)sender;
 
 /**
- itestapp Platform calls this method on suspend.
+ iTestApp Platform calls this method on suspend.
  @param sender The sender of the event.
  */
 -(void)suspend:(id)sender;
 
 /**
- itestapp Platform calls this method on entering background.
+ iTestApp Platform calls this method on entering background.
  @param sender The sender of the event.
  */
 -(void)paused:(id)sender;
 
 /**
- itestapp Platform calls this method on resume.
+ iTestApp Platform calls this method on resume.
  @param sender The sender of the event.
  */
 -(void)resume:(id)sender;
