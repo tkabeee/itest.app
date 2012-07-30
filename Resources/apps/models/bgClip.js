@@ -3,7 +3,7 @@
  */
 
 /*
- * TODO: setIntervalでテキストコピーイベントを取得してクリップボードから配列を代入する
+ * TODO: setIntervalでテキストコピーイベントを取得してクリップボードから配列を代入
  */
 
 var SYSTEM = require('apps/config/SYSTEM');
@@ -11,7 +11,7 @@ var service = Ti.App.currentService;
 var clipboard = require(SYSTEM.modelPath + '/clipBoard');
 var clips = [];
 
-// TODO: winMainTableがglobal化できないのでうまく代入できない
+// TODO: winMainTableをglobal化
 winMainTable.data = [];
 
 Ti.API.info(service.name);
