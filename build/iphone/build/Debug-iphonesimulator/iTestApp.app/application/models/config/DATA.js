@@ -1,0 +1,1 @@
+/Users/sdkondo/Work/Git/itestapp/Resources/application/models/config/DATA.js

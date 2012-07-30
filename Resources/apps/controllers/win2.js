@@ -29,10 +29,8 @@ function win2(){
     view.add(button);
     win.add(view);
 
-    var WinMain = require('winMain');
-    var winMain = new WinMain();
-    var clipboard = require('clipBoard');
-    var clips = new Array();
+    var clipboard = require(SYSTEM.modelPath + '/clipBoard');
+    //var clips = new Array();
     //var currentData = [];
 
     Ti.API.log('Test Clipboard');
@@ -45,11 +43,11 @@ function win2(){
             var clip = clipboard.getText();
             if(clip){
                 clipboard.clearText();
-                clips.push(clip);
+                DATA.clips.push(clip);
                 updateTableRowData(clip);
             }
         }
-        Ti.API.log('Array Clip: ' + clips);
+        Ti.API.log('Array Clip: ' + DATA.clips);
     });
     
     var updateTableRowData = function(clip){
@@ -66,9 +64,8 @@ function win2(){
         });
         textLabel.text = clip;
         row.add(textLabel);
-        //currentData.push(row);
+        DATA.winMainTable.data.unshift(row);
 
-        winMain.currentRowData = row;
         Ti.API.log('row: ' + row);
     }
     

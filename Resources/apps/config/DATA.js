@@ -1,0 +1,6 @@
+/**
+ * @author tkabee
+ */
+
+exports = {
+};

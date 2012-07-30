@@ -5,7 +5,7 @@ reporting an issue to help us understand your environment, build settings
 and aid in debugging. Please attach this log to any issue that you report.
 ================================================================================
 
-Starting build at 07/21/12 00:41
+Starting build at 07/30/12 01:13
 
 Build details:
 
@@ -18,7 +18,7 @@ Build details:
 Script arguments:
    /Library/Application Support/Titanium/mobilesdk/osx/2.1.0.GA/iphone/builder.py
    simulator
-   4.3
+   5.1
    /Users/sdkondo/Work/Git/itestapp
    iTestApp
    iTestApp
@@ -27,9 +27,9 @@ Script arguments:
    
 
 Building from: /Library/Application Support/Titanium/mobilesdk/osx/2.1.0.GA/iphone
-Platform: Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386
+Platform: Darwin Kernel Version 12.0.0: Sun Jun 24 23:00:16 PDT 2012; root:xnu-2050.7.9~1/RELEASE_X86_64
 
-Xcode path is: /Developer
+Xcode path is: /Applications/Xcode.app/Contents/Developer
 
 
 githash=6e3cab6, existing_git_hash=6e3cab6

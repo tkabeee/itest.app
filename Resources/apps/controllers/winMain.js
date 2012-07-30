@@ -9,26 +9,20 @@ function winMain(){
         backgroundColor:'#fff'
     });
 
-    // クリップボードテキストのリスト表示
-    var data = [];
+    // クリップボードテキストのリスト表示するテーブルデータを初期化
+    winMainTable.data = [];
+    
     var tableView = Ti.UI.createTableView({
-        data: data
+        data: winMainTable.data
     });
     
     win.addEventListener('focus', function(){
         Ti.API.log('focus!');
-        /*
-         * TODO: ウィンドウ間のデータ受け渡しがうまくいかない
-         * 
-        if(win.currentRowData){
-            Ti.API.log(win.currentRowData);
-            data.push(win.currentRowData);
-        }
-        */
+        tableView.data = winMainTable.data;
     });
     
     win.add(tableView);
-        
+
     return win;
 }
 
