@@ -29,25 +29,17 @@ function win2(){
     view.add(button);
     win.add(view);
 
-    var clipboard = require(SYSTEM.modelPath + '/clipBoard');
-    //var clips = new Array();
-    //var currentData = [];
-
     Ti.API.log('Test Clipboard');
     
     //buttonクリック時のイベント
     button.addEventListener('click', function(){    
-        Ti.API.log('Clipboard.hasText(), should be true: ' + clipboard.hasText());
-        Ti.API.log('Clipboard.getText(): ' + clipboard.getText());
-        if(clipboard.hasText()){
-            var clip = clipboard.getText();
-            if(clip){
-                clipboard.clearText();
-                DATA.clips.push(clip);
-                updateTableRowData(clip);
-            }
+        if(winMainTable.bgs.clips){
+          Ti.API.log('Array: ' + winMainTable.bgs.clips.toString());
+          for(var i in winMainTable.bgs.clips){
+            updateTableRowData(winMainTable.bgs.clips[i]);
+          }
+          Ti.API.log('update!');
         }
-        Ti.API.log('Array Clip: ' + DATA.clips);
     });
     
     var updateTableRowData = function(clip){
@@ -64,7 +56,7 @@ function win2(){
         });
         textLabel.text = clip;
         row.add(textLabel);
-        DATA.winMainTable.data.unshift(row);
+        winMainTable.data.unshift(row);
 
         Ti.API.log('row: ' + row);
     }

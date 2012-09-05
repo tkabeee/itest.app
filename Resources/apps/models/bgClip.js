@@ -3,16 +3,15 @@
  */
 
 /*
- * TODO: setIntervalでテキストコピーイベントを取得してクリップボードから配列を代入
+ * setIntervalでテキストコピーイベントを取得してクリップボードから配列を代入
  */
 
 var SYSTEM = require('apps/config/SYSTEM');
 var service = Ti.App.currentService;
 var clipboard = require(SYSTEM.modelPath + '/clipBoard');
-var clips = [];
 
-// TODO: winMainTableをglobal化
-winMainTable.data = [];
+// clipsを初期化
+var clips = [];
 
 Ti.API.info(service.name);
 
@@ -21,7 +20,7 @@ var s = setInterval(function(){
   Ti.UI.iPhone.appBadge = number;
   Ti.API.info(number);
   
-  if (number == 60) {
+  if (number == 59) {
     clearInterval(s);
     service.stop();
   }
@@ -33,14 +32,17 @@ var s = setInterval(function(){
     if(clip){
         clips.push(clip);
         clipboard.clearText();
-        updateTableRowData(clip);
+        Ti.API.log('Clipboard.clearText()');
+        //updateTableRowData(clip);
 
     }
-    Ti.API.log('Array Clip: ' + clips);
+    Ti.API.log('Array Clip: ' + clips.toString());
   }
+  service.clips = clips;
 
 }, 1000);
 
+/*
 var updateTableRowData = function(clip){
     var row = Ti.UI.createTableViewRow({
         height: 150,
@@ -55,7 +57,8 @@ var updateTableRowData = function(clip){
     });
     textLabel.text = clip;
     row.add(textLabel);
-    winMainTable.data.unshift(row);
+    service.data.unshift(row);
 
     Ti.API.log('row: ' + row);
 }
+*/

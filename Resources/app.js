@@ -1,7 +1,10 @@
 //外部ファイルをrequire
 
 var SYSTEM = require('apps/config/SYSTEM');
-var winMainTable = [];
+var winMainTable = {
+  data: [],
+  bgs: {}
+};
 
 (function(){
 
@@ -32,8 +35,8 @@ var winMainTable = [];
     });
         
     //  add tabs
-    tabGroup.addTab(tab1);  
-    //tabGroup.addTab(tab2);    
+    tabGroup.addTab(tab1);
+    tabGroup.addTab(tab2);    
     
     // open tab group
     tabGroup.open();
@@ -41,16 +44,10 @@ var winMainTable = [];
     //new winMain.open();
 
     // バックグラウンド処理の定義
-    /*
-    var bgService = Ti.App.iOS.registerBackgroundService({
-      url: SYSTEM.modelPath + '/badge.js',
-      name: 'badge'
-    });
-    */
-
-    var bgService = Ti.App.iOS.registerBackgroundService({
+    winMainTable.bgs = Ti.App.iOS.registerBackgroundService({
       url: SYSTEM.modelPath + '/bgClip.js',
-      name: 'bgClip'
+      name: 'bgClip',
+      clips: []
     });
-
+    
 })();
